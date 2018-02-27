@@ -19,8 +19,8 @@ const Loading = function (options) {
 }
 
 Loading.close = function(userOnClose) {
-  const theTnstanceVm = Loading()
-  theTnstanceVm.visible = false
+  if (!instance) return
+  instance.vm.visible = false
   instance = null
 }
 
