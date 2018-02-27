@@ -1,6 +1,6 @@
 {
   "name": "ewell-vue-component",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "ewell-vue-component(Bate)",
   "main": "dist/evell.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "component"
   ],
   "author": "Johnsen <jiajunzhou1994@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EwellFE/Evell"
+  },
   "license": "MIT",
   "dependencies": {
     "vue": "^2.5.13"

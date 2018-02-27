@@ -1,6 +1,7 @@
 import Message from './components/message'
 import Loading from './components/loading'
 import LoadMore from './components/loadMore'
+const packageDetail = require('../package.json')
 
 const components = [
   Message,
@@ -21,7 +22,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 let EwellVue = {
-  version: '1.0.0',
+  version: `${packageDetail.version}`,
   install,
   Message,
   Loading,
