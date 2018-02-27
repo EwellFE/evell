@@ -1,6 +1,6 @@
 {
   "name": "evell",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "ewell-vue-component(Bate)",
   "main": "dist/evell.js",
   "scripts": {

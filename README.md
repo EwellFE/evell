@@ -1,4 +1,4 @@
-# Evell &middot; ![npm](https://img.shields.io/badge/npm-v1.0.8-brightgreen.svg)  ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
+# Evell &middot; ![npm](https://img.shields.io/badge/npm-v1.0.9-brightgreen.svg)  ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 > 医惠移动端组件库，基于Vue2.0开发
 
 
