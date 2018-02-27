@@ -71,17 +71,17 @@ Loading.close()  // 关闭loading
 
 ```
 <ewell-loadmore :bottomLoadAll="bottomLoadAll" :bottom-fetch-method="handleLoadMore" ref="loadmore">
-	<ul>
-  		<li v-for="item in list">{{ item }}></li>
-  	</ul>
+  <ul>
+    <li v-for="item in list">{{ item }}></li>
+  </ul>
 </ewell-loadmore>
 ```
 按住列表，上拉一定距离后释放，被指定为 `bottom-fetch-method` 的方法就会执行。当数据获取完毕时将绑定到 `bottomLoadAll` 属性的变量赋值为 `true` 解绑 `loadmore` 事件。
 
 ```
 handleLoadMore() {
-	... //加载更多
-	this.$refs.loadmore.onBottomLoaded()
+  ... //加载更多
+  this.$refs.loadmore.onBottomLoaded()
 }
 ```
 注意在这个方法的最后需要手动调用 `loadmore` 的 `onBottomLoaded` 事件。这是因为在加载数据后需要对组件进行一些重新定位的操作。
