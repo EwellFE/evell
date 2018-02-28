@@ -49,10 +49,8 @@ export default {
 <style scoped>
 .popup-tips {
   position: absolute;
-  max-width: 7.65rem;
-  height: 1.5rem;
-  line-height: 1.5rem;
-  padding: 0 .6rem;
+  line-height: .9rem;
+  padding: .2rem .6rem;
   background: rgba(0, 0, 0, 0.7);
   border-radius: .12rem;
   color: #fff;
