@@ -22,7 +22,7 @@ $ npm install evell --save
 import Vue from 'vue'
 import Evell from 'Evell'
 
-Vue.use(iView)
+Vue.use(Evell)
 ```
 
 ## 按需引用
