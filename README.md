@@ -20,7 +20,7 @@ $ npm install evell --save
 
 ```
 import Vue from 'vue'
-import Evell from 'Evell'
+import Evell from 'evell'
 
 Vue.use(Evell)
 ```
