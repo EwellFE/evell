@@ -12,9 +12,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   output: {
     path: path.resolve(__dirname, '../dist'),
     publicPath: '/dist/',
-    filename: '[name]/index.js',
-    library: 'evell',
-    libraryTarget: 'umd',
+    filename: '[name]/index.js'
   }
 })
 
