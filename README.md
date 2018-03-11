@@ -43,7 +43,7 @@ Vue.component(LoadMore.name, LoadMore)
 
 `this.$message('message')`
 
-按需应用使用方式：
+按需引用使用方式：
 
 ```
 import Message from 'evell/dist/message'
@@ -57,7 +57,7 @@ Message('message')
 - 开启loading：`this.$loading()`
 - 关闭loading：`this.$loading.close()`
 
-按需应用使用方式：
+按需引用使用方式：
 
 ```
 import Loading from 'evell/dist/loading'
@@ -107,8 +107,6 @@ handleLoadMore() {
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
-
- Copyright (c) 2018, evell.
 
 
 
